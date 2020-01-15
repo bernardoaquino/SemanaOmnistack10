@@ -1,6 +1,12 @@
 const express = require('express'); //Importando o express
+const mongoose = require('mongoose');//Importando o mongoose(possibilita o node ter comunicação com uma base de dados mongo)
 
 const app = express(); //Chamando express
+
+mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-seh6q.mongodb.net/week10?retryWrites=true&w=majority', { //String de conexão
+    useNewUrlParser: true, //Parâmetros para retirar o aviso
+    useUnifiedTopology: true, //Parâmetros para retirar o aviso
+});
 
 app.use(express.json()); //Express entender requições de um corpo com formato JSON
 
