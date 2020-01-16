@@ -2,6 +2,8 @@
 Semana OmniStack 10.0 - Rocketseat 🚀
 
 ## 13/01 - Conhecendo a OmniStack
+Criação da aplicação DevRadar
+
 ### Chocolatey
 [Chocolatey - Gerenciador de pacotes para Windows](https://chocolatey.org/install)
 
