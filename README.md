@@ -1,5 +1,5 @@
 # Semana OmniStack 10
-Semana OmniStack 10 - Rocketseat 🚀
+Semana OmniStack 10.0 - Rocketseat 🚀
 
 ## 13/01 - Conhecendo a OmniStack
 ### Chocolatey
