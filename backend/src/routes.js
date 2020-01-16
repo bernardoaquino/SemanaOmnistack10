@@ -4,7 +4,6 @@ const SearchController = require('./controllers/SearchController');
 
 const routes = Router();
 
-//Flag Async pode demorar para responder
 routes.get('/devs', DevController.index);
 routes.post('/devs', DevController.store);
 // routes.delete('/devs', DevController.destroy);
