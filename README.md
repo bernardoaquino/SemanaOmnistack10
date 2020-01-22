@@ -54,3 +54,9 @@ yarn nodemon index.js
 ```
 yarn add mongoose
 ```
+
+### Axios
+Instalação do axios
+```
+yarn add axios
+```
