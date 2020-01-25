@@ -1,0 +1,16 @@
+main {
+    flex: 1; /*Ocupe todo espaço do flex-direction*/
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /*Distancia colunas e linhas por 20px*/
+    list-style: none;
+}
+
+@media (max-width: 650px){
+    main ul {
+        grid-template-columns: 1fr;
+    }
+}
