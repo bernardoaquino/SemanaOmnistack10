@@ -60,3 +60,8 @@ Instalação do axios
 ```
 yarn add axios
 ```
+### Cors
+Instalação do cors
+```
+yarn add cors
+```
